@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Midwest Art Deco</title>
+    <link rel="stylesheet" href="css/latestpoststyles.css?version=0.1">
+    <link rel="stylesheet" href="css/style.css?version=0.8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/MidWestArtDeco.png">
+  </head>
+  <body>
+
+      <header id="top" class="main-header">
+          <h1>Midwest Art Deco</h1>
+          <img class="arrow" src="img/arrow.svg" alt="">
+        </header>
+
+		<div class="primary-content t-border">
+			<p class="intro">
+				Featuring photos of Art Deco architecture across the Midwest USA. All photos my own, &#x1f4f7; Sony a6000. Cinci O. based.
+			</p>
+
+    <script type="text/javascript" src="js/instafeed.js"></script>
+
+    <div id="instafeed"></div>
+
+    <script type="text/javascript">
+         var userFeed = new Instafeed({
+         get: 'user',
+         userId: '2120126777',
+         accessToken: '2120126777.1677ed0.bbbb6fdeb2854ef0be821c43f9cc056b',
+         template: '<div style="background-image:url({{image}})" class="latest-post"><h2 class="aligncenter"><a href="photostream.html">See Latest Posts</a></h2><p>Posting weekly on Instagram.  <br>Follow<a href="https://www.instagram.com/midwestartdeco/">@midwestartdeco</a></p></div>',
+         resolution: 'standard_resolution',
+         sortBy: 'most-recent',
+         limit: 1
+         });
+         userFeed.run();
+    </script>
+
+		</div><!-- End .primary-content -->
+
+		<footer class="main-footer">
+			<p>All rights reserved to Matthew J. Deininger &copy; 2018</p>
+			<a href="#top">Back to top</a>
+		</footer>
+  </body>
+</html>
