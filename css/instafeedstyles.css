@@ -8,7 +8,6 @@
 #instafeed img {
     padding: 0;
     margin: 0;
-/*    max-width: 612px;*/
     width: auto;
     border: solid 2px rgba(26,128,237, .4);
 }
@@ -17,7 +16,6 @@
   padding:5px 5px 0 5px;
   margin:10px;
   display:inline-block;
-/*  border-radius: 4px;*/
   position:relative;
 }
 
