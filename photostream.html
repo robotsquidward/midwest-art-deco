@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Midwest Art Deco</title>
+    <link rel="stylesheet" href="css/instafeedstyles.css?version=0.3">
+    <link rel="stylesheet" href="css/style.css?version=0.4">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/MidWestArtDeco.png">
+  </head>
+    <body>
+
+        <header id="top" class="secondary-header">
+          <h1><a href="index.html">Midwest Art Deco</a></h1>
+        </header>
+
+        <script type="text/javascript" src="js/instafeed.js"></script>
+
+        <ul id="instafeed"></ul>
+
+        <script type="text/javascript">
+             var userFeed = new Instafeed({
+             get: 'user',
+             userId: '2120126777',
+             accessToken: '2120126777.1677ed0.bbbb6fdeb2854ef0be821c43f9cc056b',
+             template: '<li><div id="instabrick"><a href="{{link}}"><img src="{{image}}" /></a><p id="instacaption">{{caption}}</p><p id="instalikes">&hearts; {{likes}}</p></div></li>',
+             resolution: 'standard_resolution'
+             });
+             userFeed.run();
+        </script>
+
+        <footer class="secondary-footer">
+			<p>All rights reserved to Matthew J. Deininger &copy; 2016</p>
+			<a href="#top">Back to top</a>
+		</footer>
+    </body>
+</html>
