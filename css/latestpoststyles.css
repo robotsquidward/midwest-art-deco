@@ -44,10 +44,6 @@
 	transition: opacity 100ms ease;
 }
 
-#instafeed a:hover .likes {
-  opacity:1;
-}
-
 #instabrick {
     padding-top: 30px;
 }
