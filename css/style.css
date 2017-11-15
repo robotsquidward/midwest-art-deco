@@ -138,6 +138,10 @@ a:active {
   line-height: 1.6;
 }
 
+.cross-ref {
+  padding-top: 20px;
+}
+
 .primary-content,
 .main-header,
 .main-footer {
