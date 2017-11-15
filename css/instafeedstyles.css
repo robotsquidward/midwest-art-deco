@@ -12,16 +12,19 @@
     box-shadow: 0 5px 50px 5px rgba(0,0,0, .4);
 }
 
+#instafeed ul {
+  padding-right: 40px;
+}
+
 #instafeed a {
   padding:5px 5px 0 5px;
-  margin:10px;
   display:inline-block;
   position:relative;
 }
 
 #instafeed li {
     list-style: none;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 #instafeed .likes {
@@ -51,6 +54,7 @@
 
 #instabrick {
     padding-top: 30px;
+    padding-right: 40px;
 }
 
 #instacaption {
