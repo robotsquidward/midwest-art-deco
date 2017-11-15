@@ -9,7 +9,7 @@
     padding: 0;
     margin: 0;
     width: auto;
-    border: solid 2px rgba(26,128,237, .4);
+    box-shadow: 0 5px 50px 5px rgba(0,0,0, .4);
 }
 
 #instafeed a {
