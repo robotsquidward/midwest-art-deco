@@ -36,6 +36,8 @@ h1 {
 
 h2 {
     font-family: 'Market Deco', Helvetica, Arial, sans-serif;
+    color: #3b3b3b;
+    padding-top: 20px;
 }
 
 h1 {
@@ -181,6 +183,21 @@ a:active {
 
 .t-border {
   border-top: 2px solid #dfe2e6;
+}
+
+/* Contact Page ------------------- */
+
+.about-content {
+  max-width: 700px;
+  padding: 0 30px 0 30px;
+  margin: auto;
+  text-align: left;
+}
+
+.about-content h2 {
+  padding-top: 70px;
+  font-size: 3em;
+  color: #1A80ED;
 }
 
 /* Layout Styles ------------------ */
