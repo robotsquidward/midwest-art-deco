@@ -306,7 +306,4 @@ a:active {
     .main-header h1 {
         font-size: 3em;
     }
-    .main-header {
-        max-height: 380px;
-    }
 }
