@@ -298,13 +298,3 @@ a:active {
     }
 
 }
-
-/* Mobile View */
-@media(max-width: 480px) {
-    .main-header h1 {
-        font-size: 3em;
-    }
-    .main-header {
-        max-height: 380px;
-    }
-}
