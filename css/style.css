@@ -204,7 +204,6 @@ a:active {
 
 .primary-content,
 .secondary-content {
-  width: 75%;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
@@ -295,7 +294,6 @@ a:active {
     }
     aligncenter {
       float: left;
-      width:33.33333%;
       text-align:center;
     }
 
