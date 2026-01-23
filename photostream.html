@@ -1,42 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Midwest Art Deco</title>
-    <link rel="stylesheet" href="css/instafeedstyles.css?version=0.1">
-    <link rel="stylesheet" href="css/style.css?version=0.8">
-    <meta name = "viewport" content = "user-scalable=no, width=device-width">
-    <meta charset="utf-8"/>
-    <link rel="icon" href="img/MidWestArtDeco.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photostream | Midwest Art Deco</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Browse the full gallery of Art Deco architecture photos from across the Midwest USA.">
+    <meta name="author" content="Matthew J. Deininger">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://midwestartdeco.com/photostream.html">
+    <meta property="og:title" content="Photostream | Midwest Art Deco">
+    <meta property="og:description" content="Browse the full gallery of Art Deco architecture photos from across the Midwest USA.">
+    <meta property="og:image" content="https://midwestartdeco.com/img/mwad_header_large.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Photostream | Midwest Art Deco">
+    <meta name="twitter:description" content="Browse the full gallery of Art Deco architecture photos from across the Midwest USA.">
+    <meta name="twitter:image" content="https://midwestartdeco.com/img/mwad_header_large.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/MidWestArtDeco.png">
+    <link rel="apple-touch-icon" href="img/MidWestArtDeco.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css?version=1.0">
+    <link rel="stylesheet" href="css/instafeedstyles.css?version=1.0">
   </head>
-    <body>
+  <body>
 
-        <header id="top" class="secondary-header">
-          <h1><a href="index.html">Midwest Art Deco</a></h1>
-        </header>
+    <header id="top" class="secondary-header">
+      <h1><a href="index.html">Midwest Art Deco</a></h1>
+    </header>
 
-        <script type="text/javascript" src="js/instafeed.js"></script>
+    <!-- Instagram Feed Widget - Full Gallery -->
+    <div class="instagram-gallery">
+      <!--
+        LIGHTWIDGET EMBED CODE GOES HERE
 
-        <ul id="instafeed"></ul>
-
-        <script type="text/javascript">
-             var userFeed = new Instafeed({
-             get: 'user',
-             userId: '2120126777',
-             accessToken: '2120126777.1677ed0.bbbb6fdeb2854ef0be821c43f9cc056b',
-             template: '<li><div id="instabrick"><a href="{{link}}"><img src="{{image}}" /></a><p id="instacaption">{{caption}}</p><p id="instalikes">&hearts; {{likes}}</p></div></li>',
-             resolution: 'standard_resolution'
-             });
-             userFeed.run();
-        </script>
+        Instructions:
+        1. Go to https://lightwidget.com
+        2. Create a widget for @midwestartdeco
+        3. Configure: Grid layout, multiple rows, show captions
+        4. Copy the embed code and paste it below
+        5. Remove this comment block
+      -->
+      <div class="gallery-placeholder">
+        <p>Instagram gallery loading...</p>
+        <p><a href="https://www.instagram.com/midwestartdeco/">View on Instagram</a></p>
+      </div>
+    </div>
 
     <div class="primary-content outro">
       <h3>See more Art Deco <a href="https://www.instagram.com/midwestartdeco/">@midwestartdeco</a></h3>
     </div>
 
     <footer class="secondary-footer">
-			<p>All rights reserved to Matthew J. Deininger &copy; 2019</p>
-			<a href="#top">Back to top</a>
-		</footer>
+      <p>All rights reserved to Matthew J. Deininger &copy; 2016-2025</p>
+      <a href="#top">Back to top</a>
+    </footer>
 
-    </body>
+  </body>
 </html>
