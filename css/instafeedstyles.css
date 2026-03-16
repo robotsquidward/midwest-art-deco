@@ -69,6 +69,7 @@
 /* Override LightWidget default styles if needed */
 .lightwidget-widget {
   width: 100%;
+  padding: 32px 0;
 }
 
 /* Ensure images from widget are responsive */
